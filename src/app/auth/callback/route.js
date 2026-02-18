@@ -15,5 +15,6 @@ export async function GET(request) {
     }
 
     // If no code or error, redirect to login with error
-    return NextResponse.redirect(`${origin}/login?error=auth_failed`);
+    const errorMessage = error?.message || "auth_failed";
+    return NextResponse.redirect(`${origin}/login?error=${encodeURIComponent(errorMessage)}`);
 }
