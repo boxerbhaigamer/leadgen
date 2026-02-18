@@ -24,12 +24,12 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-import requests
-from playwright._impl._errors import TargetClosedError
-
-import agent_config as config
-from scraper import GoogleMapsScraper
-from validator import process_leads
+# Imports moved inside main/run_agent to handle errors gracefully
+# import requests
+# from playwright._impl._errors import TargetClosedError
+# import agent_config as config
+# from scraper import GoogleMapsScraper
+# from validator import process_leads
 
 # ─── Logging Setup ───────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -101,7 +101,7 @@ class LeadGenAPI:
 
 # ─── Agent Runner ────────────────────────────────────────────────────────────
 
-async def execute_job(api: LeadGenAPI, job: dict, scraper: GoogleMapsScraper) -> None:
+async def execute_job(api, job: dict, scraper) -> None:
     """Execute a single scraping job."""
     job_id = job["id"]
     city = job["city"]
@@ -195,7 +195,7 @@ async def execute_job(api: LeadGenAPI, job: dict, scraper: GoogleMapsScraper) ->
             pass
 
 
-async def _upload_batch(api: LeadGenAPI, job_id: str, batch: list[dict], city: str, category: str, platform: str):
+async def _upload_batch(api, job_id: str, batch: list[dict], city: str, category: str, platform: str):
     """Helper to format and upload a batch of leads."""
     api_leads = []
     for lead in batch:
@@ -223,8 +223,22 @@ async def _upload_batch(api: LeadGenAPI, job_id: str, batch: list[dict], city: s
 async def run_agent(args):
     """Main agent loop."""
     print("\n" + "=" * 60)
-    print("⚡ LEADGEN SAAS AGENT")
+    print("⚡ LEADGEN SAAS AGENT (v2.0)")
     print("=" * 60)
+    print("   Initializing core modules...")
+
+    # Lazy imports to catch initialization errors
+    try:
+        import requests
+        from playwright._impl._errors import TargetClosedError
+        import agent_config as config
+        from scraper import GoogleMapsScraper
+        from validator import process_leads
+        print("   ✅ Modules loaded successfully.")
+    except Exception as e:
+        print(f"\n❌ Error loading modules: {e}")
+        print("   This might be due to missing dependencies in the executable.")
+        raise e
 
     # Validate config
     # Validate config & Interactive Setup

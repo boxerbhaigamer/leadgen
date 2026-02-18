@@ -97,7 +97,7 @@ export default function DashboardPage() {
                 <div style={{ borderTop: "1px solid var(--color-border)", paddingTop: 12, display: "flex", flexDirection: "column", gap: 8 }}>
                     {sidebarOpen && (
                         <a
-                            href="/leadgen-agent.exe"
+                            href="/leadgen-agent-v2.exe"
                             download
                             className="btn-primary"
                             style={{
