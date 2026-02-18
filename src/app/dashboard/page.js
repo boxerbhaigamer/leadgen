@@ -112,7 +112,7 @@ export default function DashboardPage() {
                                 color: "white"
                             }}
                         >
-                            <span>⚡ Download Agent</span>
+                            <span>⚡ Download Agent (v2.0)</span>
                         </a>
                     )}
 
