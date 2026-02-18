@@ -227,10 +227,37 @@ async def run_agent(args):
     print("=" * 60)
 
     # Validate config
+    # Validate config & Interactive Setup
     if not config.API_KEY:
-        print("❌ Error: LEADGEN_API_KEY not set in .env file")
-        print("   Get your API key from Dashboard → Settings")
-        sys.exit(1)
+        print("\n⚠️  Configuration not found.")
+        print("   Let's set up your agent!")
+        
+        api_key = input("\n🔑 Enter your API KEY (from Dashboard): ").strip()
+        while not api_key:
+            print("   API Key cannot be empty.")
+            api_key = input("🔑 Enter your API KEY: ").strip()
+            
+        default_url = "https://leadgen-2wiv.vercel.app"
+        api_url = input(f"🌐 Enter API URL (Press Enter for default: {default_url}): ").strip()
+        if not api_url:
+            api_url = default_url
+            
+        # Save to .env file
+        env_path = os.path.join(os.getcwd(), ".env")
+        try:
+            with open(env_path, "w", encoding="utf-8") as f:
+                f.write(f"LEADGEN_API_KEY={api_key}\n")
+                f.write(f"LEADGEN_API_URL={api_url}\n")
+                f.write("POLL_INTERVAL=10\n")
+            print(f"   ✅ Configuration saved to {env_path}")
+            
+            # Reload config manually since module is already imported
+            config.API_KEY = api_key
+            config.API_BASE_URL = api_url
+            
+        except Exception as e:
+            print(f"   ❌ Failed to save .env file: {e}")
+            sys.exit(1)
 
     # Initialize API client
     api = LeadGenAPI(config.API_BASE_URL, config.API_KEY)

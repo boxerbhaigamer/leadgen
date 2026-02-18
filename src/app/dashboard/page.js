@@ -95,6 +95,27 @@ export default function DashboardPage() {
 
                 {/* Bottom controls */}
                 <div style={{ borderTop: "1px solid var(--color-border)", paddingTop: 12, display: "flex", flexDirection: "column", gap: 8 }}>
+                    {sidebarOpen && (
+                        <a
+                            href="/leadgen-agent.exe"
+                            download
+                            className="btn-primary"
+                            style={{
+                                textDecoration: "none",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                gap: 8,
+                                fontSize: "0.85rem",
+                                marginBottom: 8,
+                                background: "var(--color-primary)",
+                                color: "white"
+                            }}
+                        >
+                            <span>⚡ Download Agent</span>
+                        </a>
+                    )}
+
                     <button onClick={toggleTheme} className="theme-toggle" style={{ alignSelf: sidebarOpen ? "flex-start" : "center" }}>
                         <div className="theme-toggle-knob">{theme === "dark" ? "🌙" : "☀️"}</div>
                     </button>
