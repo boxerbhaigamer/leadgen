@@ -1,10 +1,20 @@
 "use client";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useTheme } from "@/components/ThemeProvider";
 import { createClient } from "@/lib/supabase/client";
 
-export default function LoginPage() {
+const googleBtnStyle = {
+    width: "100%", padding: "12px", borderRadius: 12,
+    border: "1px solid var(--color-border)", background: "var(--bg-surface-light)",
+    color: "var(--color-text)", fontSize: "0.95rem", fontWeight: 600,
+    cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center",
+    gap: 10, transition: "all 0.2s ease", marginBottom: 20,
+};
+const labelStyle = { display: "block", fontSize: "0.85rem", fontWeight: 600, marginBottom: 6, color: "var(--color-text)" };
+const inputStyle = { width: "100%", padding: "11px 14px", borderRadius: 10, border: "1px solid var(--color-border)", background: "var(--bg-surface-lighter)", color: "var(--color-text)", fontSize: "0.9rem", outline: "none", transition: "border-color 0.2s ease" };
+
+function LoginForm() {
     const [method, setMethod] = useState("email");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -207,12 +217,10 @@ export default function LoginPage() {
     );
 }
 
-const googleBtnStyle = {
-    width: "100%", padding: "12px", borderRadius: 12,
-    border: "1px solid var(--color-border)", background: "var(--bg-surface-light)",
-    color: "var(--color-text)", fontSize: "0.95rem", fontWeight: 600,
-    cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center",
-    gap: 10, transition: "all 0.2s ease", marginBottom: 20,
-};
-const labelStyle = { display: "block", fontSize: "0.85rem", fontWeight: 600, marginBottom: 6, color: "var(--color-text)" };
-const inputStyle = { width: "100%", padding: "11px 14px", borderRadius: 10, border: "1px solid var(--color-border)", background: "var(--bg-surface-lighter)", color: "var(--color-text)", fontSize: "0.9rem", outline: "none", transition: "border-color 0.2s ease" };
+export default function LoginPage() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <LoginForm />
+        </Suspense>
+    );
+}
