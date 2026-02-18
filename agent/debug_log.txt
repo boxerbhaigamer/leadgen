@@ -1,0 +1,197 @@
+Starting Debug Agent...
+Processing Job: 47b9ba38-ea39-4816-a965-b895b0b8d21a - gym in delhi
+--- Uploading Batch (5) ---
+[
+  {
+    "business_name": "Component Fitness - The Most Premium Gym in Malviya nagar",
+    "phone": "+918800117699",
+    "email": "info@componentfitness.co.in",
+    "address": "D-80, First Floor, Malviya Nagar Rd, above Punjab National Bank, Main Market, New Delhi, Delhi 110017",
+    "city": "delhi",
+    "rating": "4.9",
+    "reviews": "",
+    "website": "componentfitness.co.in",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Gold's Gym Rajouri Garden",
+    "phone": "+917009170045",
+    "email": "customer.care@goldsgym.in",
+    "address": "Metro Station, A2-41, Najafgarh Rd, near Pillar no - 399, near Bikanervala | Rajouri Garden Delhi, Block A, Rajouri Garden, New Delhi, Delhi, 110027",
+    "city": "delhi",
+    "rating": "4.5",
+    "reviews": "",
+    "website": "goldsgym.in",
+    "category": "Fitness center",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Anytime Fitness Subhash Nagar, Delhi",
+    "phone": "+919355544497",
+    "email": "info@anytimefitness.in",
+    "address": "First Floor, A Block, Plot No S-26, Subhash Nagar, Ajay Enclave, Meenakshi Garden, Ashok Nagar, New Delhi, Delhi, 110018",
+    "city": "delhi",
+    "rating": "4.3",
+    "reviews": "",
+    "website": "anytimefitness.co.in",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Thunder The Gym Delhi",
+    "phone": "",
+    "email": "",
+    "address": "5/8 , basement, near Kalinga Chowk, opposite HDFC Bank, Block 1, West Patel Nagar, Patel Nagar, New Delhi, Delhi, 110008",
+    "city": "delhi",
+    "rating": "4.9",
+    "reviews": "",
+    "website": "thundergym.in",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Sharks Gym",
+    "phone": "+919971374174",
+    "email": "sharkgym@softmakr.in",
+    "address": "Metro pillar-11, Metro, 29, Panchkuian Road, RamaKrishna Ashram Marg, Paharganj, New Delhi, Delhi 110001",
+    "city": "delhi",
+    "rating": "4.6",
+    "reviews": "",
+    "website": "sharkgym.org",
+    "category": "Gym",
+    "platform": "google_maps"
+  }
+]
+Response Status: 201
+Response Body: {"inserted":5,"message":"5 leads uploaded successfully"}
+--- Uploading Batch (5) ---
+[
+  {
+    "business_name": "Gold\u2019s Gym Janakpuri West | Best Gym in Janakpuri West, Delhi",
+    "phone": "",
+    "email": "customer.care@goldsgym.in",
+    "address": "A1/289, Pankha Rd, Block A1, Janakpuri, New Delhi, Delhi, 110058",
+    "city": "delhi",
+    "rating": "4.2",
+    "reviews": "",
+    "website": "goldsgym.in",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Fitness SPA | Luxury Gym in Defence Colony",
+    "phone": "+919910634055",
+    "email": "info@fitnessspa.in",
+    "address": "2nd Floor, D, 5, above Geetanjali Salon, Block D, Defence Colony, New Delhi, Delhi, 110024",
+    "city": "delhi",
+    "rating": "4.8",
+    "reviews": "",
+    "website": "fitnessspa.in",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Drugs Fitness - Workout Nasha (Unisex Gym)",
+    "phone": "+917503176000",
+    "email": "",
+    "address": "number 7-8 Pocket, Plot, B6, Sector 5 Rd, Rohini, New Delhi, Delhi 110085",
+    "city": "delhi",
+    "rating": "4.7",
+    "reviews": "",
+    "website": "drugsfitness.in",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Team Iron Fit Gym",
+    "phone": "+919910416468",
+    "email": "",
+    "address": "GN4 , Basement Shivaji Enclave Extension, near Khetarpal Nursing Home, New Delhi, Delhi 110027",
+    "city": "delhi",
+    "rating": "4.9",
+    "reviews": "",
+    "website": "",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Good Life Fitness",
+    "phone": "+919811064909",
+    "email": "",
+    "address": "12/3, Old Rajinder Nagar, Rajinder Nagar, New Delhi, Delhi, 110060",
+    "city": "delhi",
+    "rating": "4.6",
+    "reviews": "",
+    "website": "",
+    "category": "Gym",
+    "platform": "google_maps"
+  }
+]
+Response Status: 201
+Response Body: {"inserted":5,"message":"5 leads uploaded successfully"}
+--- Uploading Batch (5) ---
+[
+  {
+    "business_name": "Gold's Gym Lajpat Nagar",
+    "phone": "+917009600002",
+    "email": "customer.care@goldsgym.in",
+    "address": "BDR Building, A-7, Ring Rd, near Moolchand metro station, Vikram Vihar, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024",
+    "city": "delhi",
+    "rating": "4.5",
+    "reviews": "",
+    "website": "goldsgym.in",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Delhi fitness gym",
+    "phone": "+919999882070",
+    "email": "",
+    "address": "Building no 33, metro pillar 164, service line, Old Ranjeet Nagar, Block 5, South Patel Nagar, New Delhi, Delhi 110008",
+    "city": "delhi",
+    "rating": "4.5",
+    "reviews": "",
+    "website": "",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Glorious Gym/CROSSFIT",
+    "phone": "+919212055456",
+    "email": "",
+    "address": "Hari Enclave, A-157, Kirari Suleman Nagar Village, New Delhi, Delhi 110086",
+    "city": "delhi",
+    "rating": "4.9",
+    "reviews": "",
+    "website": "",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "Fitness Overload - Best Gym in Paschim Vihar",
+    "phone": "+919958629429",
+    "email": "",
+    "address": "upper ground floor, 177, Avtar Enclave, Paschim Vihar, New Delhi, Delhi 110063",
+    "city": "delhi",
+    "rating": "4.9",
+    "reviews": "",
+    "website": "",
+    "category": "Gym",
+    "platform": "google_maps"
+  },
+  {
+    "business_name": "All Time Fitness",
+    "phone": "+918447557755",
+    "email": "",
+    "address": "A-6/46, Block A, Block WZ, Shastri Nagar, New Delhi, Delhi, 110052",
+    "city": "delhi",
+    "rating": "4.6",
+    "reviews": "",
+    "website": "",
+    "category": "Fitness center",
+    "platform": "google_maps"
+  }
+]
+Response Status: 201
+Response Body: {"inserted":5,"message":"5 leads uploaded successfully"}

@@ -1,0 +1,222 @@
+2026-02-18 15:40:07,683 [INFO] scraper: Browser launched (headless=False, viewport=1399x938)
+2026-02-18 15:40:08,254 [INFO] scraper: Browser closed.
+2026-02-18 15:43:17,105 [INFO] scraper: Browser launched (headless=False, viewport=1542x861)
+2026-02-18 15:43:17,471 [INFO] scraper: 🔍 Searching: gym in delhi
+2026-02-18 15:44:21,419 [INFO] scraper: Reached end of results list.
+2026-02-18 15:44:21,425 [INFO] scraper: Found 120 listings for 'gym in delhi'
+2026-02-18 15:48:55,161 [INFO] scraper: Browser closed.
+2026-02-18 15:49:12,192 [INFO] scraper: Browser launched (headless=False, viewport=1707x1044)
+2026-02-18 15:49:12,501 [INFO] scraper: Browser closed.
+2026-02-18 15:49:50,558 [INFO] scraper: Browser launched (headless=False, viewport=1401x1064)
+2026-02-18 15:49:50,906 [INFO] scraper: 🔍 Searching: bar in jaipur
+2026-02-18 15:51:01,913 [INFO] scraper: Reached end of results list.
+2026-02-18 15:51:01,919 [INFO] scraper: Found 120 listings for 'bar in jaipur'
+2026-02-18 15:52:06,429 [ERROR] __main__: Failed to upload batch: 500 Server Error: Internal Server Error for url: http://127.0.0.1:3000/api/agent/leads
+2026-02-18 15:53:15,660 [ERROR] __main__: Failed to upload batch: 500 Server Error: Internal Server Error for url: http://127.0.0.1:3000/api/agent/leads
+2026-02-18 15:54:20,447 [ERROR] __main__: Failed to upload batch: 500 Server Error: Internal Server Error for url: http://127.0.0.1:3000/api/agent/leads
+2026-02-18 15:54:22,417 [WARNING] scraper: Could not click listing 31: Page.wait_for_selector: Connection closed while reading from the driver
+2026-02-18 15:54:22,420 [WARNING] scraper: Could not click listing 32: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,420 [WARNING] scraper: Could not click listing 33: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,421 [WARNING] scraper: Could not click listing 34: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,422 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,422 [WARNING] scraper: Could not click listing 35: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,424 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,424 [WARNING] scraper: Could not click listing 36: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,424 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,425 [WARNING] scraper: Could not click listing 37: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,425 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,426 [WARNING] scraper: Could not click listing 38: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,427 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,427 [WARNING] scraper: Could not click listing 39: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,428 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,428 [WARNING] scraper: Could not click listing 40: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,429 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,429 [WARNING] scraper: Could not click listing 41: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,430 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,430 [WARNING] scraper: Could not click listing 42: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,431 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,431 [WARNING] scraper: Could not click listing 43: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,432 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,432 [WARNING] scraper: Could not click listing 44: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,433 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,433 [WARNING] scraper: Could not click listing 45: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,434 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,434 [WARNING] scraper: Could not click listing 46: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,435 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,435 [WARNING] scraper: Could not click listing 47: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,436 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,436 [WARNING] scraper: Could not click listing 48: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,437 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,437 [WARNING] scraper: Could not click listing 49: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,438 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,438 [WARNING] scraper: Could not click listing 50: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,439 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,439 [WARNING] scraper: Could not click listing 51: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,440 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,440 [WARNING] scraper: Could not click listing 52: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,441 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,441 [WARNING] scraper: Could not click listing 53: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,442 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,442 [WARNING] scraper: Could not click listing 54: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,443 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,443 [WARNING] scraper: Could not click listing 55: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,444 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,444 [WARNING] scraper: Could not click listing 56: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,445 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,447 [WARNING] scraper: Could not click listing 57: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,447 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,450 [WARNING] scraper: Could not click listing 58: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,455 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,455 [WARNING] scraper: Could not click listing 59: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,456 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,456 [WARNING] scraper: Could not click listing 60: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,457 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,457 [WARNING] scraper: Could not click listing 61: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,458 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,458 [WARNING] scraper: Could not click listing 62: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,459 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,459 [WARNING] scraper: Could not click listing 63: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,460 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,460 [WARNING] scraper: Could not click listing 64: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,461 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,461 [WARNING] scraper: Could not click listing 65: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,462 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,462 [WARNING] scraper: Could not click listing 66: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,463 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,464 [WARNING] scraper: Could not click listing 67: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,465 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,465 [WARNING] scraper: Could not click listing 68: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,466 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,466 [WARNING] scraper: Could not click listing 69: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,466 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,467 [WARNING] scraper: Could not click listing 70: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,467 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,468 [WARNING] scraper: Could not click listing 71: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,468 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,468 [WARNING] scraper: Could not click listing 72: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,469 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,469 [WARNING] scraper: Could not click listing 73: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,470 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,470 [WARNING] scraper: Could not click listing 74: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,471 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,471 [WARNING] scraper: Could not click listing 75: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,472 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,472 [WARNING] scraper: Could not click listing 76: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,473 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,473 [WARNING] scraper: Could not click listing 77: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,474 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,474 [WARNING] scraper: Could not click listing 78: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,474 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,474 [WARNING] scraper: Could not click listing 79: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,475 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,475 [WARNING] scraper: Could not click listing 80: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,476 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,476 [WARNING] scraper: Could not click listing 81: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,477 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,477 [WARNING] scraper: Could not click listing 82: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,478 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,478 [WARNING] scraper: Could not click listing 83: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,479 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,479 [WARNING] scraper: Could not click listing 84: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,480 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,480 [WARNING] scraper: Could not click listing 85: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,481 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,481 [WARNING] scraper: Could not click listing 86: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,482 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,482 [WARNING] scraper: Could not click listing 87: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,483 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,483 [WARNING] scraper: Could not click listing 88: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,484 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,484 [WARNING] scraper: Could not click listing 89: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,485 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,485 [WARNING] scraper: Could not click listing 90: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,486 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,487 [WARNING] scraper: Could not click listing 91: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,487 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,488 [WARNING] scraper: Could not click listing 92: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,488 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,489 [WARNING] scraper: Could not click listing 93: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,489 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,490 [WARNING] scraper: Could not click listing 94: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,490 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,490 [WARNING] scraper: Could not click listing 95: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,491 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,491 [WARNING] scraper: Could not click listing 96: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,492 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,492 [WARNING] scraper: Could not click listing 97: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,493 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,493 [WARNING] scraper: Could not click listing 98: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,494 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,494 [WARNING] scraper: Could not click listing 99: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,495 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,495 [WARNING] scraper: Could not click listing 100: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,496 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,496 [WARNING] scraper: Could not click listing 101: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,497 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,497 [WARNING] scraper: Could not click listing 102: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,498 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,498 [WARNING] scraper: Could not click listing 103: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,499 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,499 [WARNING] scraper: Could not click listing 104: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,500 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,500 [WARNING] scraper: Could not click listing 105: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,501 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,501 [WARNING] scraper: Could not click listing 106: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,502 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,502 [WARNING] scraper: Could not click listing 107: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,503 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,503 [WARNING] scraper: Could not click listing 108: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,504 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,504 [WARNING] scraper: Could not click listing 109: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,505 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,505 [WARNING] scraper: Could not click listing 110: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,506 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,506 [WARNING] scraper: Could not click listing 111: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,507 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,507 [WARNING] scraper: Could not click listing 112: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,508 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,508 [WARNING] scraper: Could not click listing 113: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,509 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,510 [WARNING] scraper: Could not click listing 114: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,511 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,511 [WARNING] scraper: Could not click listing 115: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,512 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,512 [WARNING] scraper: Could not click listing 116: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,513 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,513 [WARNING] scraper: Could not click listing 117: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,514 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,514 [WARNING] scraper: Could not click listing 118: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,515 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,515 [WARNING] scraper: Could not click listing 119: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:22,516 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:22,516 [WARNING] scraper: Could not click listing 120: Locator.click: Connection closed while reading from the driver
+2026-02-18 15:54:25,398 [WARNING] asyncio: socket.send() raised exception.
+2026-02-18 15:54:25,398 [INFO] scraper: Browser closed.
+2026-02-18 16:06:17,025 [INFO] scraper: Browser launched (headless=False, viewport=1648x994)
+2026-02-18 16:06:17,313 [INFO] scraper: 🔍 Searching: school in mumbai
+2026-02-18 16:07:00,446 [INFO] scraper: Reached end of results list.
+2026-02-18 16:07:00,455 [INFO] scraper: Found 120 listings for 'school in mumbai'
+2026-02-18 16:08:42,109 [ERROR] __main__: Failed to upload batch: 500 Server Error: Internal Server Error for url: http://127.0.0.1:3000/api/agent/leads
+2026-02-18 16:10:22,810 [INFO] scraper: Browser launched (headless=False, viewport=1446x883)
+2026-02-18 16:10:23,083 [INFO] scraper: Browser closed.
+2026-02-18 16:10:45,982 [INFO] scraper: Browser closed.
+2026-02-18 16:15:41,824 [INFO] scraper: Browser launched (headless=False, viewport=1629x870)
+2026-02-18 16:15:42,278 [INFO] scraper: 🔍 Searching: gym in delhi
+2026-02-18 16:16:50,314 [INFO] scraper: Reached end of results list.
+2026-02-18 16:16:50,320 [INFO] scraper: Found 120 listings for 'gym in delhi'
+2026-02-18 16:17:48,431 [ERROR] __main__: Failed to upload batch: 500 Server Error: Internal Server Error for url: http://127.0.0.1:3000/api/agent/leads
+2026-02-18 16:18:34,665 [ERROR] __main__: Failed to upload batch: 500 Server Error: Internal Server Error for url: http://127.0.0.1:3000/api/agent/leads
+2026-02-18 16:19:19,293 [INFO] scraper: Browser closed.
+2026-02-18 16:31:50,695 [INFO] scraper: Browser launched (headless=False, viewport=1462x842)
+2026-02-18 16:31:51,155 [INFO] scraper: 🔍 Searching: hotels in banglore
+2026-02-18 16:32:59,620 [INFO] scraper: Reached end of results list.
+2026-02-18 16:32:59,625 [INFO] scraper: Found 122 listings for 'hotels in banglore'
+2026-02-18 16:38:57,524 [INFO] scraper: Browser closed.
+2026-02-18 16:38:57,623 [ERROR] asyncio: Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2026-02-18 16:39:38,296 [INFO] scraper: Browser launched (headless=False, viewport=1518x926)
+2026-02-18 16:39:38,556 [INFO] scraper: 🔍 Searching: saloon in jaipur
+2026-02-18 16:40:22,448 [INFO] scraper: Reached end of results list.
+2026-02-18 16:40:22,455 [INFO] scraper: Found 120 listings for 'saloon in jaipur'
+2026-02-18 16:42:31,902 [INFO] scraper: Browser closed.
