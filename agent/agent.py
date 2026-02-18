@@ -242,8 +242,15 @@ async def run_agent(args):
         if not api_url:
             api_url = default_url
             
-        # Save to .env file
-        env_path = os.path.join(os.getcwd(), ".env")
+        # Determine correct path for .env
+        if getattr(sys, 'frozen', False):
+            # If running as compiled .exe, use the executable's directory
+            application_path = os.path.dirname(sys.executable)
+        else:
+            application_path = os.path.dirname(os.path.abspath(__file__))
+            
+        env_path = os.path.join(application_path, ".env")
+        
         try:
             with open(env_path, "w", encoding="utf-8") as f:
                 f.write(f"LEADGEN_API_KEY={api_key}\n")
@@ -379,4 +386,10 @@ Examples:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"\n❌ Fatal Error: {e}")
+        traceback.print_exc()
+        input("\nPress Enter to exit...")
+        sys.exit(1)
