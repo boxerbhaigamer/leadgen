@@ -6,15 +6,20 @@ export async function GET(request) {
     const code = searchParams.get("code");
     const next = searchParams.get("next") ?? "/dashboard";
 
-    if (code) {
-        const supabase = await createClient();
-        const { error } = await supabase.auth.exchangeCodeForSession(code);
-        if (!error) {
-            return NextResponse.redirect(`${origin}${next}`);
+    try {
+        if (code) {
+            const supabase = await createClient();
+            const { error } = await supabase.auth.exchangeCodeForSession(code);
+            if (!error) {
+                return NextResponse.redirect(`${origin}${next}`);
+            }
+            throw new Error(error.message);
         }
+    } catch (err) {
+        console.error("Auth Callback Error:", err);
+        return NextResponse.redirect(`${origin}/login?error=${encodeURIComponent(err.message)}`);
     }
 
-    // If no code or error, redirect to login with error
-    const errorMessage = error?.message || "auth_failed";
-    return NextResponse.redirect(`${origin}/login?error=${encodeURIComponent(errorMessage)}`);
+    // If no code, redirect to login with error
+    return NextResponse.redirect(`${origin}/login?error=no_code_provided`);
 }
